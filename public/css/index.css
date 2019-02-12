@@ -5,9 +5,8 @@
  .logo {float: left; color: #f1f1f1; font-size: 1.5rem; font-weight: bold;} 
  .logins {float: right;}
   #user_email {color:#ccc; margin-right: 1rem;}
-  #login_bt{} 
   #logout_bt{display: none;} 
-.wrs {border: 4px solid #999; margin: 2rem 1rem; padding: 0.5rem;}
- .wrs > li:first-child {float:left; width:calc(100%-50px);}
+.wrs {border: 4px solid #999; margin: 2rem 0; padding: 0.5rem;}
+ .wrs > li:first-child {float:left; width:90%;}
  .wrs > li:last-child {float: right; text-align: right;}
 .gbooks {border: 1px solid #ccc;}

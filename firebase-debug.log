@@ -1,0 +1,25 @@
+[debug] [2019-02-12T00:20:26.413Z] ----------------------------------------------------------------------
+[debug] [2019-02-12T00:20:26.416Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hyejin.park\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve
+[debug] [2019-02-12T00:20:26.416Z] CLI Version:   6.3.1
+[debug] [2019-02-12T00:20:26.416Z] Platform:      win32
+[debug] [2019-02-12T00:20:26.416Z] Node Version:  v10.15.1
+[debug] [2019-02-12T00:20:26.419Z] Time:          Tue Feb 12 2019 09:20:26 GMT+0900 (GMT+09:00)
+[debug] [2019-02-12T00:20:26.419Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-12T00:20:26.429Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-12T00:20:26.429Z] > authorizing via signed-in user
+[debug] [2019-02-12T00:20:26.429Z] [iam] checking project gbook1line for permissions ["firebase.projects.get"]
+[debug] [2019-02-12T00:20:26.431Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/gbook1line:testIamPermissions  
+
+[debug] [2019-02-12T00:20:27.988Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-12T00:20:27.990Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/gbook1line  
+ 
+[debug] [2019-02-12T00:20:29.215Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\hyejin\gbook'...
+[info] 
+[debug] [2019-02-12T00:20:29.222Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/731905230056/clients/_:getWebAppConfig  
+ 
+[debug] [2019-02-12T00:20:30.648Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000

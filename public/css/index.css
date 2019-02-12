@@ -1,12 +1,17 @@
 @import 'base.css';
 .wrap {width: 100%; max-width: 1200px; margin: auto;}
-.panel {background-color: rgb(226, 25, 149); border-bottom: 3px solid #999; padding: 0 1rem;}
- .panel > div {padding: 0.5rem;}
+.panel {background-color: rgb(226, 25, 149); border-bottom: 4px solid #999; padding: 1rem;}
+ .panel > div {padding: 0.25rem;}
  .logo {float: left; color: #f1f1f1; font-size: 1.5rem; font-weight: bold;} 
  .logins {float: right;}
   #user_email {color:#ccc; margin-right: 1rem;}
   #logout_bt{display: none;} 
 .wrs {border: 4px solid #999; margin: 2rem 0; padding: 0.5rem;}
- .wrs > li:first-child {float:left; width:90%;}
+ .wrs > li:first-child {float:left; width:calc(100% - 70px);}
  .wrs > li:last-child {float: right; text-align: right;}
-.gbooks {border: 1px solid #ccc;}
+ .gbook {margin: 1.5rem 10px; box-shadow: 0 0 20px rgba(0,0,0,0.2); border-radius:10px; border:1px solid #ddd; padding: 1rem;}
+  .gbook > li:first-child {color: #999; margin-bottom: 10px;}
+  .gbook > li:nth-child(2) {color: rgb(4, 3, 39); border:1px solid rgb(245, 0, 204); font-size: 1.25rem; padding: 0.5rem; margin-bottom: 10px;}
+   .gbook > li:last-child {padding: 0.5rem 0;}
+  .gbook .fas {color: gray; cursor: pointer; font-size:0.875rem;}
+  .gbook .fas:hover {color: brown; cursor: pointer; font-size:0.875rem;}
